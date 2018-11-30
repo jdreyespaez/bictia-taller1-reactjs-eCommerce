@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {lista} from './lista.json'
 import Listado from './components/lista'
 import Formulario from './components/formulario'
+import './App.css'
 
 class App extends Component{
   constructor(){
@@ -30,6 +31,7 @@ render(){
 
   return(
     <div className="container">
+      <div className="header">BLUD | Tienda para recuperarte del cáncer</div>
       <div>
         <span className="contador">
           {this.state.lista.length}
