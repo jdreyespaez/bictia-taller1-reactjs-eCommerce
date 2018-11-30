@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
 
-// Inicia la construcción del componente
 class Formulario extends Component{
     constructor(){
         super()
         this.state = {
-            titulo: '',
-            nombre: ''
+            producto: '',
+            precio: ''
         }
 
-        // Con .bind() estamos escalando el evento que viene de handleCampo y handleEnvio
         this.handleCampo = this.handleCampo.bind(this)
         this.handleEnvio = this.handleEnvio.bind(this)
     
@@ -24,19 +22,18 @@ class Formulario extends Component{
 
     handleEnvio(e){
         e.preventDefault()
-        this.props.onAgregarTarea(this.state)
+        this.props.onAgregarProducto(this.state)
     }
 
     render(){
         return(
             <div>
-                {/* onSubmit evento propio de JS */}
                 <form method="POST" onSubmit={this.handleEnvio}>
                     <div>
                         <input
                             type="text"
-                            name="titulo"
-                            placeholder="Título"
+                            name="producto"
+                            placeholder="Producto"
                             onChange={this.handleCampo}
                         />
                     </div>
@@ -44,8 +41,8 @@ class Formulario extends Component{
                     <div>
                         <input
                             type="text"
-                            name="nombre"
-                            placeholder="Nombre"
+                            name="precio"
+                            placeholder="Precio"
                             onChange={this.handleCampo}
                         />
                     </div>
@@ -55,6 +52,5 @@ class Formulario extends Component{
         );
     }
 }
-// Finaliza la construcción del componente
 
 export default Formulario
