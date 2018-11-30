@@ -19,6 +19,13 @@ class Listado extends Component{
                                 {this.props.productos.precio}
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                <div className="eliminar" onClick={this.props.deleteMethod}>
+                                    Eliminar
+                                </div>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

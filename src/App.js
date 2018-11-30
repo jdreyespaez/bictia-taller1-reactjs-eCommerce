@@ -22,10 +22,18 @@ class App extends Component{
     })
   }
 
+  deleteProducto(index) {
+    var productoBorrado = this.lista.producto;
+    productoBorrado.splice(index, 1);
+    this.setState({ lista: productoBorrado })
+  }
+
 render(){
   const lista = this.state.lista.map((producto, i) => {
     return(
-      <Listado productos = {producto} key = {i} />
+      <Listado productos = {producto} key = {i} 
+        deleteMethod={ () => this.deleteProducto(i) }
+      />
     );
   })
 
