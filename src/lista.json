@@ -1,24 +1,24 @@
 {
     "lista" : [
         {
-            "titulo": "Tarea #1",
-            "nombre": "César"
+            "producto": "Kit de Limpieza",
+            "precio": "$50.000 COP"
         },
         {
-            "titulo": "Tarea #2",
-            "nombre": "Juan Pablo"
+            "producto": "CanPlan Planeador",
+            "precio": "$70.000 COP"
         },
         {
-            "titulo": "Tarea #3",
-            "nombre": "Fabián"
+            "producto": "Máquina de ruido blanco",
+            "precio": "$130.000 COP"
         },
         {
-            "titulo": "Tarea #4",
-            "nombre": "Edwin"
+            "producto": "Gorro protector",
+            "precio": "$35.000 COP"
         },
         {
-            "titulo": "Tarea #5",
-            "nombre": "Orlando"
+            "producto": "Bufanda para la cabza",
+            "precio": "$59.000 COP"
         }
     ]
 }
