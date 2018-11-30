@@ -8,7 +8,7 @@ class Listado extends Component{
                     <thead>
                         <tr>
                             <th>
-                                {this.props.tareas.titulo}
+                                {this.props.productos.producto}
                             </th>
                         </tr>
                     </thead>
@@ -16,7 +16,7 @@ class Listado extends Component{
                     <tbody>
                         <tr>
                             <td>
-                                {this.props.tareas.nombre}
+                                {this.props.productos.precio}
                             </td>
                         </tr>
                     </tbody>
