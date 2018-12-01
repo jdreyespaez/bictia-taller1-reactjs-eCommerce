@@ -48,7 +48,7 @@ class Formulario extends Component{
                             onChange={this.handleCampo}
                         />
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button className="btn" type="submit">Enviar</button>
                 </form>
             </div>
         );
