@@ -27,7 +27,7 @@ body {
   padding: 40px;
 }
 
-.note {
+.producto {
   color: #adadad;
   padding: 40px;
   margin: 20px;
@@ -39,21 +39,20 @@ body {
   -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
   transition: transform .2s ease;
 }
-.note:hover {
+.producto:hover {
   transform: scale(1.02);
 }
 /* The add note button */
 .btn {
-  position: fixed;
   z-index: 1;
   right: 40px;
   bottom: 40px;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
+  width: 100px;
+  height: 40px;
+  border-radius: 10%;
   text-align: center;
-  line-height: 80px;
-  font-size: 28px;
+  line-height: 40px;
+  font-size: 18px;
   font-weight: bold;
   color: #f1f1f1;
   background: #3367d6;
@@ -68,8 +67,8 @@ body {
 }
 /* Textinput */
 .textInput {
-  width: 100%;
-  height: 80px;
+  width: 60%;
+  height: 40px;
   line-height: 80px;
   padding: 0 20px;
   border: 1px solid green;

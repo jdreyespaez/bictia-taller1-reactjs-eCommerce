@@ -7,7 +7,7 @@ class Listado extends Component{
                 <table>
                     <thead>
                         <tr>
-                            <th>
+                            <th className="producto"> 
                                 {this.props.productos.producto}
                             </th>
                         </tr>
@@ -21,7 +21,7 @@ class Listado extends Component{
                         </tr>
                         <tr>
                             <td>
-                                <div className="eliminar" onClick={this.props.deleteMethod}>
+                                <div className="btn" onClick={this.props.deleteMethod}>
                                     Eliminar
                                 </div>
                             </td>
