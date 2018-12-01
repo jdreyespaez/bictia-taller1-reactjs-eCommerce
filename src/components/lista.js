@@ -15,7 +15,7 @@ class Listado extends Component{
 
                     <tbody>
                         <tr>
-                            <td>
+                            <td className="precio">
                                 {this.props.productos.precio}
                             </td>
                         </tr>

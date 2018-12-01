@@ -42,7 +42,24 @@ body {
 .producto:hover {
   transform: scale(1.02);
 }
-/* The add note button */
+
+.precio {
+  color: #242121;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 5px;
+  background: rgb(116, 170, 94);
+  border: solid 1px #e9e9e9;
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.1);
+  transition: transform .2s ease;
+}
+.precio:hover {
+  transform: scale(1.02);
+}
+
 .btn {
   z-index: 1;
   right: 40px;
@@ -65,7 +82,7 @@ body {
 .btn:hover {
   transform: scale(1.2);
 }
-/* Textinput */
+
 .textInput {
   width: 60%;
   height: 40px;
@@ -74,7 +91,7 @@ body {
   border: 1px solid green;
   margin: 1%;
   outline: none;
-  background: #8790a3;
+  background: #dcdee2;
   font-size: 16px;
   color: #f1f1f1;
 }
