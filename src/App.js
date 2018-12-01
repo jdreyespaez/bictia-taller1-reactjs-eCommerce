@@ -23,7 +23,7 @@ class App extends Component{
   }
 
   deleteProducto(index) {
-    var productoBorrado = this.lista.producto;
+    var productoBorrado = this.state.lista;
     productoBorrado.splice(index, 1);
     this.setState({ lista: productoBorrado })
   }
