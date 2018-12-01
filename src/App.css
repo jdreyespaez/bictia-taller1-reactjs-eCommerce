@@ -82,6 +82,25 @@ body {
 .btn:hover {
   transform: scale(1.2);
 }
+.contador{
+  position: fixed;
+  z-index: 1;
+  right: 40px;
+  bottom: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1f1f1;
+  background: #3367d6;
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.8);
+  transition: transform .06s ease;
+}
 
 .textInput {
   width: 60%;
