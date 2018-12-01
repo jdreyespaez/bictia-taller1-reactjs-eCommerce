@@ -31,6 +31,7 @@ class Formulario extends Component{
                 <form method="POST" onSubmit={this.handleEnvio}>
                     <div>
                         <input
+                            className="textInput"
                             type="text"
                             name="producto"
                             placeholder="Producto"
@@ -40,6 +41,7 @@ class Formulario extends Component{
 
                     <div>
                         <input
+                            className="textInput"
                             type="text"
                             name="precio"
                             placeholder="Precio"
